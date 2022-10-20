@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+    <link href='https://css.gg/dark-mode.css' rel='stylesheet'>
+    <title>Tic Tac Toe</title>
+</head>
+
+<body class="dark">
+    
+    <div class="lightsContainer">
+        <div class="container">
+            <div class="red flame"></div>
+            <div class="orange flame"></div>
+            <div class="yellow flame"></div>
+            <div class="white flame"></div>
+            <!-- <div class="blue circle"></div>
+            <div class="black circle"></div> -->
+          </div>
+          <img src="./images/matchupda.png" alt="">
+          <div class="buttonDark">hey</div>
+        </div>
+    <!-- player select option -->
+    <div class="playerOption">
+        <p>Tic Tac Toe</p>
+        <div class="content">
+            <div class="title">Choose Player 1</div>
+            <div class="option">
+                <button class="playerX" id="playerX">Player X</button>
+                <button class="playerO" id="playerO"> Player O</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- game board section  -->
+    <div class="playBoard">
+        <div class="header">
+            <div class="players">
+                <span class="Xturn">X's Turn</span>
+                <span class="Oturn">O's Turn</span>
+                <div class="slider"></div>
+            </div>
+        </div>
+
+        <div class="boardSection">
+            <div class="box" id="0"></div>
+            <div class="box" id="1"></div>
+            <div class="box" id="2"></div>
+            <div class="box" id="3"></div>
+            <div class="box" id="4"></div>
+            <div class="box" id="5"></div>
+            <div class="box" id="6"></div>
+            <div class="box" id="7"></div>
+            <div class="box" id="8"></div>
+        </div>
+        <div id="statusText"></div>
+    </div>
+
+    <!-- result section -->
+    <div id="buttons">
+        <div>
+            <button id="restartButton">Restart</button>
+        </div>
+        <div id="pnButtons">
+            <button id="previousButton"><-- Previous</button>
+            <button id="nextButton">Next --></button>
+        </div>      
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
